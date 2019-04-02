@@ -263,15 +263,7 @@ main.container{
 
 
 /*----------------------Media Queries-----------------------*/
-@media only screen and (min-width: 400px) {
-    main.container {
-  nav.external{
-  display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  padding:20px 20px 0px 20px;
-  font-family: 'Cinzel', serif;
-}
-  }
+
 /* ---  Tablet ---- */
 @media only screen and (min-width: 768px) {
   main.container {
