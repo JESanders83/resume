@@ -321,6 +321,8 @@ main.container{
   grid-area: nav;
   padding-bottom: 50px;
   max-width: 100%;
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   
 }
 .clearfix img{
