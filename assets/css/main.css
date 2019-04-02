@@ -49,7 +49,7 @@ a:link, a:visited{
 }
 nav.external{
   display:grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
   padding:20px 20px 0px 20px;
   font-family: 'Cinzel', serif;
 }
@@ -263,7 +263,14 @@ main.container{
 
 
 /*----------------------Media Queries-----------------------*/
-
+@media only screen and (min-width: 768px) 
+  { 
+  nav.external{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding:20px 20px 0px 20px;
+  font-family: 'Cinzel', serif;
+}
 
 /* ---  Tablet ---- */
 @media only screen and (min-width: 768px) {
